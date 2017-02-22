@@ -98,5 +98,17 @@ header {
         background: #d54749;
     }
 }
+
+.howsection {
+  text-align: center;
+  h2 {
+    margin-left: 14px;
+    margin-top: 34px;
+    font: 22px $fontMonB;
+    color: #333;
+    font-weight: bold;
+  }
+}
+
 @media (min-width: 768px) {}
 @media (min-width: 977px) {}

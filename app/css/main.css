@@ -23,4 +23,4 @@ table{border-collapse:collapse;border-spacing:0}header{min-height:443px;min-widt
 .header_nameline a{color:#fff;text-decoration:none}.header_tagline{margin-top:29px;font:30px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
 .header_tagline2{margin:0 auto;width:230px;margin-top:8px;font:18px "Roboto Light",Arial,sans-serif;color:white;margin-bottom:23px}
 .header_link{padding:12px 50px;border-radius:35px;background-color:#ff4e50;margin-top:12px;font:14px "Montserrat Bold",Arial,sans-serif;color:white;text-decoration:none}
-.header_link:hover{background:#d54749}
+.header_link:hover{background:#d54749}.howsection{text-align:center}.howsection h2{margin-left:14px;margin-top:34px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
