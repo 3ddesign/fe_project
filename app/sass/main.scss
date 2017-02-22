@@ -1,4 +1,5 @@
 @import 'fonts';
+@import 'reset';
 $fontMonB: "Montserrat Bold", Arial, sans-serif;
 $fontMonR: "Montserrat Regular", Arial, sans-serif;
 $fontRblack: "Robotoblack", Arial, sans-serif;
@@ -12,9 +13,90 @@ $fontRM: "Roboto Medium", Arial, sans-serif;
 $fontRMI: "Robotomedium Italic", Arial, sans-serif;
 $fontRR: "Roboto Regular", Arial, sans-serif;
 $fontRT: "Roboto Thin", Arial, sans-serif;
-$fontRTI: "Robotothin Italic", Arial, sans-serif;
-
-
-// '(max-width: 767px)';
+$fontRTI: "Robotothin Italic", Arial, sans-serif; // '(max-width: 767px)';
 // '(min-width: 768px) and (max-width: 1439px)';
 // '(min-width: 1440px)';
+
+header {
+    min-height: 443px;
+    min-width: 280px;
+    background: url("../img/bg.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 10px 67px 20px;
+}
+
+.authorizationBlock_logIn {
+    width: 150px;
+    margin: 0 auto;
+    font: 13px $fontMonB;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        color: #ff4e50;
+    }
+}
+
+.authorizationBlock_SignUp {
+    width: 150px;
+    margin-left: 16px;
+    font: 13px $fontMonB;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+    &:hover {
+        color: white;
+        border: 2px solid #ff4e50;
+        background: #ff4e50;
+    }
+}
+
+.header_nameline {
+    margin-top: 123px;
+    font: 20px $fontMonB;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.header_tagline {
+    margin-top: 29px;
+    font: 30px $fontMonB;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header_tagline2 {
+    margin: 0 auto;
+    width: 230px;
+    margin-top: 8px;
+    font: 18px $fontRL;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.header_link {
+    padding: 12px 50px;
+    border-radius: 35px;
+    background-color: #ff4e50;
+    margin-top: 12px;
+    font: 14px $fontMonB;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        background: #d54749;
+    }
+}
+@media (min-width: 768px) {}
+@media (min-width: 977px) {}
