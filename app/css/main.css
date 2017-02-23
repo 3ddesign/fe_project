@@ -27,7 +27,10 @@ a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:
 .header__tagline2{margin:0 auto;width:230px;margin-top:8px;font:18px "Roboto Light",Arial,sans-serif;color:#fff;margin-bottom:23px}
 .header_link{padding:12px 50px;border-radius:35px;background-color:#ff4e50;margin-top:12px;font:14px "Montserrat Bold",Arial,sans-serif;color:#fff}
 .header_link:hover{background:#d54749}.stepssection{text-align:center}.stepssection h2{margin-left:14px;margin-top:34px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
-.testcont{margin-top:14px;margin-left:9px}.step1{width:301px;height:240px;text-align:left;background:url("../img/s1.jpg") no-repeat}
-.steps__btn{margin-top:70px;margin-left:24px;display:inline-block;padding:4px 13px;background:#ff4e50;border-radius:18px;font:10px "Montserrat Regular",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:2px}
-.steps__btn:hover{background:#d54749}.steps__header{margin-left:20px;margin-top:14px;font:24px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
+.testcont{margin-top:14px;margin-left:9px}.step{width:301px;height:240px;text-align:left;margin-bottom:10px}
+.step--n1{background:url("../img/s1.jpg") no-repeat}.step--n2{background:url("../img/s2.jpg") no-repeat}
+.step--n3{background:url("../img/s3.jpg") no-repeat}.steps__btn{margin-top:70px;margin-left:24px;display:inline-block;padding:4px 13px;background:#ff4e50;border-radius:18px;font:10px "Montserrat Regular",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:2px}
+.steps__btn--n2{margin-top:100px;margin-left:21px}.steps__btn:hover{background:#d54749}
+.steps__header{margin-left:20px;margin-top:14px;font:24px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
 .steps__text{margin-top:10px;margin-left:20px;font:14px "Roboto Light",Arial,sans-serif;color:#cbcbcb;width:260px;line-height:18px}
+.steps__text--n2{line-height:17px;letter-spacing:.005em}

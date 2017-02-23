@@ -117,11 +117,22 @@ a {
     margin-left: 9px;
 }
 
-.step1 {
+.step {
     width: 301px;
     height: 240px;
     text-align: left;
-    background: url("../img/s1.jpg") no-repeat;
+     &--n1 {
+       background: url("../img/s1.jpg") no-repeat;
+     }
+     &--n2 {
+       background: url("../img/s2.jpg") no-repeat;
+     }
+     &--n3 {
+       background: url("../img/s3.jpg") no-repeat;
+     }
+
+
+        margin-bottom: 10px;
 }
 
 .steps__btn {
@@ -135,7 +146,10 @@ a {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-
+    &--n2 {
+      margin-top: 100px;
+      margin-left: 21px;
+    }
     &:hover {
         background: #d54749;
     }
@@ -156,6 +170,10 @@ a {
     color: #cbcbcb;
     width: 260px;
     line-height: 18px;
+    &--n2 {
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    }
 }
 
 @media (min-width: 768px) {}
