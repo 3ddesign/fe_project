@@ -1,38 +1,40 @@
 .carousel {
-    text-align: left;
+    text-align: center;
     position: relative;
-    width: 301px;
-    padding: 10px 40px;
+    width: 303px;
+    padding: 14px 9px;
 }
 
 .arrow {
     position: absolute;
-    top: 60px;
-    padding: 0;
-    background: #ddd;
-    border-radius: 15px;
-    border: 1px solid gray;
-    font-size: 24px;
-    line-height: 24px;
-    color: #444;
+    top: 100px;
+
+    cursor: default;
     display: block;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .prev {
-    left: 7px;
+  margin-top: 5px;
+      margin-left: 20px;
 }
 
 .next {
-    right: 7px;
+  margin-top: 5px;
+      margin-left: 250px;
 }
 
 .gallery {
-    width: 301px;
+    width: 303px;
     overflow: hidden;
+    text-align: left;
 }
 
 .gallery ul {
-    height: 301px;
+    height: 242px;
     width: 9999px;
     margin: 0;
     padding: 0;
