@@ -15,12 +15,19 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}
 body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
-table{border-collapse:collapse;border-spacing:0}header{min-height:443px;min-width:280px;background:url("../img/bg.jpg") center no-repeat;background-size:cover;text-align:center;padding:30px 10px 67px 20px}
-.authorizationBlock_logIn{width:150px;margin:0 auto;font:13px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold;text-decoration:none}
-.authorizationBlock_logIn:hover{color:#ff4e50}.authorizationBlock_SignUp{width:150px;margin-left:16px;font:13px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold;text-decoration:none;padding:8px 18px;border:2px solid white;border-radius:20px}
-.authorizationBlock_SignUp:hover{color:white;border:2px solid #ff4e50;background:#ff4e50}
-.header_nameline{margin-top:123px;font:20px "Montserrat Bold",Arial,sans-serif;letter-spacing:1px;font-weight:bold}
-.header_nameline a{color:#fff;text-decoration:none}.header_tagline{margin-top:29px;font:30px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
-.header_tagline2{margin:0 auto;width:230px;margin-top:8px;font:18px "Roboto Light",Arial,sans-serif;color:white;margin-bottom:23px}
-.header_link{padding:12px 50px;border-radius:35px;background-color:#ff4e50;margin-top:12px;font:14px "Montserrat Bold",Arial,sans-serif;color:white;text-decoration:none}
-.header_link:hover{background:#d54749}.howsection{text-align:center}.howsection h2{margin-left:14px;margin-top:34px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
+table{border-collapse:collapse;border-spacing:0}.carousel{text-align:left;position:relative;width:301px;padding:10px 40px}
+.arrow{position:absolute;top:60px;padding:0;background:#ddd;border-radius:15px;border:1px solid gray;font-size:24px;line-height:24px;color:#444;display:block}
+.prev{left:7px}.next{right:7px}.gallery{width:301px;overflow:hidden}.gallery ul{height:301px;width:9999px;margin:0;padding:0;list-style:none;transition:margin-left 250ms}
+.gallery li{display:inline-block}header{min-height:443px;min-width:280px;background:url("../img/bg.jpg") center no-repeat;background-size:cover;text-align:center;padding:30px 10px 67px 20px}
+a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:13px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
+.authorizationBlock_logIn:hover{color:#ff4e50}.authorizationBlock_SignUp{width:150px;margin-left:16px;font:13px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold;padding:8px 18px;border:2px solid #fff;border-radius:20px}
+.authorizationBlock_SignUp:hover{color:#fff;border:2px solid #ff4e50;background:#ff4e50}
+.header__nameline{margin-top:123px;font:20px "Montserrat Bold",Arial,sans-serif;letter-spacing:1px;font-weight:bold}
+.header__nameline a{color:#fff}.header__tagline{margin-top:29px;font:30px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
+.header__tagline2{margin:0 auto;width:230px;margin-top:8px;font:18px "Roboto Light",Arial,sans-serif;color:#fff;margin-bottom:23px}
+.header_link{padding:12px 50px;border-radius:35px;background-color:#ff4e50;margin-top:12px;font:14px "Montserrat Bold",Arial,sans-serif;color:#fff}
+.header_link:hover{background:#d54749}.stepssection{text-align:center}.stepssection h2{margin-left:14px;margin-top:34px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
+.testcont{margin-top:14px;margin-left:9px}.step1{width:301px;height:240px;text-align:left;background:url("../img/s1.jpg") no-repeat}
+.steps__btn{margin-top:70px;margin-left:24px;display:inline-block;padding:4px 13px;background:#ff4e50;border-radius:18px;font:10px "Montserrat Regular",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:2px}
+.steps__btn:hover{background:#d54749}.steps__header{margin-left:20px;margin-top:14px;font:24px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
+.steps__text{margin-top:10px;margin-left:20px;font:14px "Roboto Light",Arial,sans-serif;color:#cbcbcb;width:260px;line-height:18px}

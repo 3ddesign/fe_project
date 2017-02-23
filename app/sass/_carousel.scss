@@ -1,0 +1,45 @@
+.carousel {
+    text-align: left;
+    position: relative;
+    width: 301px;
+    padding: 10px 40px;
+}
+
+.arrow {
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.prev {
+    left: 7px;
+}
+
+.next {
+    right: 7px;
+}
+
+.gallery {
+    width: 301px;
+    overflow: hidden;
+}
+
+.gallery ul {
+    height: 301px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+}
+
+.gallery li {
+    display: inline-block;
+}

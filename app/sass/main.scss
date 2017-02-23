@@ -1,5 +1,6 @@
 @import 'fonts';
 @import 'reset';
+@import 'carousel';
 $fontMonB: "Montserrat Bold", Arial, sans-serif;
 $fontMonR: "Montserrat Regular", Arial, sans-serif;
 $fontRblack: "Robotoblack", Arial, sans-serif;
@@ -26,13 +27,16 @@ header {
     padding: 30px 10px 67px 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .authorizationBlock_logIn {
     width: 150px;
     margin: 0 auto;
     font: 13px $fontMonB;
     color: #fff;
     font-weight: bold;
-    text-decoration: none;
 
     &:hover {
         color: #ff4e50;
@@ -45,19 +49,18 @@ header {
     font: 13px $fontMonB;
     color: #fff;
     font-weight: bold;
-    text-decoration: none;
     padding: 8px 18px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 20px;
 
     &:hover {
-        color: white;
+        color: #fff;
         border: 2px solid #ff4e50;
         background: #ff4e50;
     }
 }
 
-.header_nameline {
+.header__nameline {
     margin-top: 123px;
     font: 20px $fontMonB;
     letter-spacing: 1px;
@@ -65,23 +68,22 @@ header {
 
     a {
         color: #fff;
-        text-decoration: none;
     }
 }
 
-.header_tagline {
+.header__tagline {
     margin-top: 29px;
     font: 30px $fontMonB;
     color: #fff;
     font-weight: bold;
 }
 
-.header_tagline2 {
+.header__tagline2 {
     margin: 0 auto;
     width: 230px;
     margin-top: 8px;
     font: 18px $fontRL;
-    color: white;
+    color: #fff;
     margin-bottom: 23px;
 }
 
@@ -91,23 +93,69 @@ header {
     background-color: #ff4e50;
     margin-top: 12px;
     font: 14px $fontMonB;
-    color: white;
-    text-decoration: none;
+    color: #fff;
 
     &:hover {
         background: #d54749;
     }
 }
 
-.howsection {
-  text-align: center;
-  h2 {
-    margin-left: 14px;
-    margin-top: 34px;
-    font: 22px $fontMonB;
-    color: #333;
+.stepssection {
+    text-align: center;
+
+    h2 {
+        margin-left: 14px;
+        margin-top: 34px;
+        font: 22px $fontMonB;
+        color: #333;
+        font-weight: bold;
+    }
+}
+
+.testcont {
+    margin-top: 14px;
+    margin-left: 9px;
+}
+
+.step1 {
+    width: 301px;
+    height: 240px;
+    text-align: left;
+    background: url("../img/s1.jpg") no-repeat;
+}
+
+.steps__btn {
+    margin-top: 70px;
+    margin-left: 24px;
+    display: inline-block;
+    padding: 4px 13px;
+    background: #ff4e50;
+    border-radius: 18px;
+    font: 10px $fontMonR;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &:hover {
+        background: #d54749;
+    }
+}
+
+.steps__header {
+    margin-left: 20px;
+    margin-top: 14px;
+    font: 24px $fontMonB;
+    color: #fff;
     font-weight: bold;
-  }
+}
+
+.steps__text {
+    margin-top: 10px;
+    margin-left: 20px;
+    font: 14px $fontRL;
+    color: #cbcbcb;
+    width: 260px;
+    line-height: 18px;
 }
 
 @media (min-width: 768px) {}
