@@ -285,5 +285,95 @@ a {
     font: 18px $fontRL;
     color: #333;
 }
+
+.form__search__input {
+    width: 250px;
+    margin-top: 16px;
+    padding: 9px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font: 14px $fontRL;
+    color: #999;
+}
+
+.form__search__btn {
+    width: 280px;
+    padding: 11px 15px;
+    border-radius: 35px;
+    border: 1px solid #ff4e50;
+    background-color: #ff4e50;
+    margin-top: 9px;
+    font: 14px $fontMonB;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover {
+        background: #d54749;
+        border: 1px solid #d54749;
+    }
+}
+
+.footer {
+    padding: 16px 10px 17px;
+    border-top: 4px solid #ff4e50;
+    margin-top: 41px;
+    text-align: center;
+
+    &__logo a {
+        margin-left: 15px;
+        letter-spacing: 0.7px;
+        font: 16px $fontMonB;
+        color: #ff4e50;
+        font-weight: bold;
+    }
+
+    &__boldtext1 {
+        margin-left: 13px;
+        margin-top: 10px;
+        font: 14px $fontMonB;
+        color: #333;
+        font-weight: bold;
+    }
+    &__boldtext2 {
+        margin-left: 13px;
+        margin-top: 34px;
+        font: 14px $fontMonB;
+        color: #333;
+        font-weight: bold;
+    }
+
+    &__menu {
+        width: 210px;
+        margin: 0 auto;
+
+        li {
+            margin-left: 13px;
+            float: left;
+
+            a {
+                font: 14px $fontRL;
+                color: #666;
+
+                &:hover {
+                    color: #ff4e50;
+                }
+            }
+        }
+    }
+
+    &__designedby {
+                  margin-left: 13px;
+      margin-top: 15px;
+        font: 10px $fontMonB;
+        color: #ccc;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    &__deslogo {
+        margin-top: 5px;
+    }
+}
 @media (min-width: 768px) {}
 @media (min-width: 977px) {}
