@@ -15,10 +15,10 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}
 body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
-table{border-collapse:collapse;border-spacing:0}.carousel{text-align:center;position:relative;width:303px;padding:14px 9px}
-.arrow{position:absolute;top:100px;cursor:default;display:block}.arrow:hover{cursor:pointer}
-.prev{margin-top:5px;margin-left:20px}.next{margin-top:5px;margin-left:250px}.gallery{width:303px;overflow:hidden;text-align:left}
-.gallery ul{height:242px;width:9999px;margin:0;padding:0;list-style:none;transition:margin-left 250ms}
+table{border-collapse:collapse;border-spacing:0}.carousel{text-align:center;position:relative;width:303px;padding:0 9px;margin-top:14px}
+.carousel--two{margin-top:7px}.carousel--three{margin-top:9px}.arrow{position:absolute;top:100px;cursor:default;display:block}
+.arrow:hover{cursor:pointer}.prev{margin-top:5px;margin-left:20px}.next{margin-top:5px;margin-left:250px}
+.gallery{width:303px;overflow:hidden;text-align:left}.gallery ul{height:242px;width:9999px;margin:0;padding:0;list-style:none;transition:margin-left 250ms}
 .gallery li{display:inline-block}header{min-height:443px;min-width:280px;background:url("../img/bg.jpg") center no-repeat;background-size:cover;text-align:center;padding:30px 10px 67px 20px}
 a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:13px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
 .authorizationBlock_logIn:hover{color:#ff4e50}.authorizationBlock_SignUp{width:150px;margin-left:16px;font:13px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold;padding:8px 18px;border:2px solid #fff;border-radius:20px}
@@ -35,3 +35,12 @@ a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:
 .steps__header{margin-left:20px;margin-top:14px;font:24px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
 .steps__text{margin-top:10px;margin-left:20px;font:14px "Roboto Light",Arial,sans-serif;color:#cbcbcb;width:260px;line-height:18px}
 .steps__text--n2{line-height:17px;letter-spacing:.005em}.arrow{display:none}.stepssection__carousels{margin:0 auto;height:720px;width:303px}
+.meetsection{text-align:center}.meetsection h3{margin-left:10px;margin-top:54px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
+.partner{width:220px;margin:0 auto;text-align:center}.partner__photo{margin-top:13px;margin-left:16px}
+.partner__icon{position:absolute;margin-top:98px;margin-left:-37px}.partner__name{margin-top:14px;margin-left:15px;font:14px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
+.partner__describe{margin-left:14px;margin-top:11px;font:14px "Roboto Light",Arial,sans-serif;color:#656565}
+.pmt2{margin-top:13px}.pmt3{margin-top:8px}.pmt4{margin-top:10px}.meetsection__btn{display:block;width:275px;padding:10px 1px;border:2px solid #ff4e50;border-radius:20px;margin:26px auto;font:14px "Montserrat Bold",Arial,sans-serif;color:#ff4e50;font-weight:bold}
+.meetsection__btn:hover{border:2px solid #ff4e50;background-color:#ff4e50;color:#fff}
+.ideassection{text-align:center}.ideassection h3{margin-left:13px;margin-top:33px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
+.ideassection h4{margin-left:13px;margin-top:947px;font:22px "Montserrat Bold",Arial,sans-serif}
+.form__search{padding-top:9px;padding-left:12px}.form__search__header{font:18px "Roboto Light",Arial,sans-serif;color:#333}

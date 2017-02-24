@@ -183,5 +183,107 @@ a {
     height: 720px;
     width: 303px;
 }
+
+.meetsection {
+    text-align: center;
+
+    h3 {
+        margin-left: 10px;
+        margin-top: 54px;
+        font: 22px $fontMonB;
+        color: #333;
+        font-weight: bold;
+    }
+}
+
+.partner {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__photo {
+        margin-top: 13px;
+        margin-left: 16px;
+    }
+
+    &__icon {
+        position: absolute;
+        margin-top: 98px;
+        margin-left: -37px;
+    }
+
+    &__name {
+        margin-top: 14px;
+        margin-left: 15px;
+        font: 14px $fontMonB;
+        color: #333;
+        font-weight: bold;
+    }
+
+    &__describe {
+        margin-left: 14px;
+        margin-top: 11px;
+        font: 14px $fontRL;
+        color: #656565;
+    }
+}
+
+.pmt2 {
+    margin-top: 13px;
+}
+
+.pmt3 {
+    margin-top: 8px;
+}
+
+.pmt4 {
+    margin-top: 10px;
+}
+
+.meetsection__btn {
+    display: block;
+    width: 275px;
+    padding: 10px 1px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    margin: 26px auto;
+    font: 14px $fontMonB;
+    color: #ff4e50;
+    font-weight: bold;
+
+    &:hover {
+        border: 2px solid #ff4e50;
+        background-color: #ff4e50;
+        color: #fff;
+    }
+}
+
+.ideassection {
+    text-align: center;
+
+    h3 {
+        margin-left: 13px;
+        margin-top: 33px;
+        font: 22px $fontMonB;
+        color: #333;
+        font-weight: bold;
+    }
+
+    h4 {
+        margin-left: 13px;
+        margin-top: 947px;
+        font: 22px $fontMonB;
+    }
+}
+
+.form__search {
+    padding-top: 9px;
+    padding-left: 12px;
+}
+
+.form__search__header {
+    font: 18px $fontRL;
+    color: #333;
+}
 @media (min-width: 768px) {}
 @media (min-width: 977px) {}
