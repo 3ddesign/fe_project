@@ -50,7 +50,7 @@ a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:
 .footer__logo a{margin-left:15px;letter-spacing:.7px;font:16px "Montserrat Bold",Arial,sans-serif;color:#ff4e50;font-weight:bold}
 .footer__boldtext1{margin-left:13px;margin-top:10px;font:14px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
 .footer__boldtext2{margin-left:13px;margin-top:34px;font:14px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
-.footer__menu{width:210px;margin:0 auto}.footer__menu li{margin-left:13px;float:left}
+.footer__menu{width:210px;margin:2px auto}.footer__menu li{margin-left:13px;float:left}
 .footer__menu li a{font:14px "Roboto Light",Arial,sans-serif;color:#666}
 .footer__menu li a:hover{color:#ff4e50}.footer__designedby{margin-left:13px;margin-top:15px;font:10px "Montserrat Bold",Arial,sans-serif;color:#ccc;font-weight:bold;text-transform:uppercase;letter-spacing:1px}
 .footer__deslogo{margin-top:5px}

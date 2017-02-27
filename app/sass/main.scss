@@ -334,6 +334,7 @@ a {
         color: #333;
         font-weight: bold;
     }
+
     &__boldtext2 {
         margin-left: 13px;
         margin-top: 34px;
@@ -344,7 +345,7 @@ a {
 
     &__menu {
         width: 210px;
-        margin: 0 auto;
+        margin: 2px auto;
 
         li {
             margin-left: 13px;
@@ -362,8 +363,8 @@ a {
     }
 
     &__designedby {
-                  margin-left: 13px;
-      margin-top: 15px;
+        margin-left: 13px;
+        margin-top: 15px;
         font: 10px $fontMonB;
         color: #ccc;
         font-weight: bold;
