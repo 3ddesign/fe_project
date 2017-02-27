@@ -271,7 +271,7 @@ a {
 
     h4 {
         margin-left: 13px;
-        margin-top: 947px;
+        margin-top: 10px;
         font: 22px $fontMonB;
     }
 }
@@ -375,6 +375,11 @@ a {
     &__deslogo {
         margin-top: 5px;
     }
+
 }
+
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
 @media (min-width: 768px) {}
 @media (min-width: 977px) {}

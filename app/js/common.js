@@ -1,22 +1,29 @@
-var lis = document.getElementsByTagName('li');
-for (var i = 0; i < lis.length; i++) {
-    lis[i].style.position = 'relative';
-    var span = document.createElement('span');
-    span.style.cssText = 'position:absolute;left:0;top:0';
+var button = document.getElementById("search");
 
-    lis[i].appendChild(span);
-}
-var width = 301;
-var count = 1;
-var carousel = document.getElementById('carousel');
-var list = carousel.querySelector('ul');
-var listElems = carousel.querySelectorAll('li');
-var position = 0;
-carousel.querySelector('.prev').onclick = function() {
-    position = Math.min(position + width * count, 0)
-    list.style.marginLeft = position + 'px';
+var value = '';
+
+button.onclick = function() {
+    value = document.getElementById("searchfield").value;
 };
-carousel.querySelector('.next').onclick = function() {
-    position = Math.max(position - width * count, -width * (listElems.length - count));
-    list.style.marginLeft = position + 'px';
+
+    console.log(pics.hits[1].webformatURL);
+
+
+let URL = "https://pixabay.com/api/?key=" + '4341489-c7135f07e924eb271481ce96f' + "&q=" + encodeURIComponent(value);
+
+let XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+let xhr = new XHR();
+
+xhr.open('GET', URL, true);
+
+xhr.onload = function() {
+    var pics = JSON.parse(this.responseText);
+    console.log(pics.hits[1].webformatURL);
+
 };
+
+xhr.onerror = function() {
+    console.log('Ошибка ' + this.status);
+};
+
+xhr.send();

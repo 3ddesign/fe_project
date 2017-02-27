@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/main.css">
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <script src="js/common.js"></script>
+
 </head>
 
 <body>
@@ -172,6 +172,18 @@
 
 
 
+
+
+            <div class="grid">
+              <div class="grid-item">...</div>
+              <div class="grid-item grid-item--width2">...</div>
+              <div class="grid-item">...</div>
+              ...
+            </div>
+
+
+
+
             <script type="text/tmpl" id="tmplHtml">
 
             </script>
@@ -181,8 +193,8 @@
             <h4>Discover holiday activity ideas</h4>
             <form action="#" class="form__search">
                 <p class="form__search__header">Hi! What are your holiday interests?</p>
-                <input type="text" class="form__search__input" placeholder="Enter your interests">
-                <button class="form__search__btn">Search partners</button>
+                <input type="text" class="form__search__input"  id="searchfield" placeholder="Enter your interests">
+                <button class="form__search__btn" id="search">Search partners</button>
             </form>
         </section>
 
@@ -205,6 +217,9 @@
         </footer>
 
     </div>
+    <script src="js/common.js"></script>
+    <script src="js/libs/masonry.pkgd.min.js"></script>
+    <script src="js/libs/js.carousel.js"></script>
 </body>
 
 </html>

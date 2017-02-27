@@ -19,15 +19,6 @@ gulp.task('js', function() {
         }));
 });
 
-gulp.task('libs', function() {
-    return gulp.src([
-            'app/libs/jquery/dist/jquery.min.js',
-        ])
-        .pipe(concat('libs.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('app/js/libs'));
-});
-
 gulp.task('sass', function() {
     return gulp.src('app/sass/*.scss')
         .pipe(sass())
@@ -64,7 +55,7 @@ gulp.task('img', function() {
         .pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('default', ['browser-sync', 'js', 'sass', 'libs'], function() {
+gulp.task('default', ['browser-sync', 'js', 'sass'], function() {
     gulp.watch('app/sass/**/*.scss', ['sass']);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/*.js', ['js']);
@@ -78,7 +69,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'js'], function() {
     var buildJs = gulp.src('app/js/*.js')
         .pipe(gulp.dest('dist/js'));
 
-    var buildLibs = gulp.src('app/js/libs/libs.min.js')
+    var buildLibs = gulp.src('app/js/libs/masonry.pkgd.min.js')
         .pipe(gulp.dest('dist/js/libs'));
 
     var buildCss = gulp.src('app/css/*.css')
