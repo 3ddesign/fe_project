@@ -1,24 +1,23 @@
+
+
 var button = document.getElementById("search");
 var container = document.getElementById("photogrid");
 
 //random value
-var arr = ["travel", "wine", "blue", "cars"];
+var arr = ["travel", "wine", "hiking"];
 var value = (arr[Math.round(Math.random() * (arr.length - 1))]);
 
 //request to pixabay
 let getUrls = function(val) {
-    let URL = "https://pixabay.com/api/?key=" + '4341489-c7135f07e924eb271481ce96f' + "&q=" + encodeURIComponent(val);
+    let URL = "https://pixabay.com/api/?key=4341489-c7135f07e924eb271481ce96f&q=" + encodeURIComponent(val);
     let XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
     let xhr = new XHR();
     xhr.open('GET', URL, true);
     xhr.onload = function() {
         let pics = JSON.parse(this.responseText);
-        container.innerHTML = '';
         for (var i = 0; i < 7; i++) {
-            var figure = document.createElement('figure');
-            figure.className = "cell";
-            figure.innerHTML = '<img class="cell__img" src="' + pics.hits[i].webformatURL + '" alt="image"><figcaption class="cell__name">' + pics.hits[i].tags.split(',')[0] + '</figcaption>';
-            container.appendChild(figure);
+            a = 'cell' + i;
+            document.getElementById(a).innerHTML = '<img src="' + pics.hits[i].webformatURL + '" alt="image"><figcaption>' + pics.hits[i].tags.split(',')[0] + '</figcaption>';
         }
     };
     xhr.onerror = function() {
@@ -35,3 +34,23 @@ button.onclick = function(e) {
     value = document.getElementById("searchfield").value;
     getUrls(value);
 };
+
+//Masonry init
+// var elem = document.querySelector('.grid');
+// var msnry = new Masonry(elem, {
+//     itemSelector: '.grid-item',
+//     columnWidth: 200,
+// });
+//
+// var msnry = new Masonry('.grid', {
+//
+// });
+
+
+var container = document.querySelector('.grid');
+var msnry;
+
+imagesLoaded( container, function() {
+
+  msnry = new Masonry( container );
+});
