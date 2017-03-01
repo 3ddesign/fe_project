@@ -375,11 +375,32 @@ a {
     &__deslogo {
         margin-top: 5px;
     }
-
 }
 
-.grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
+.cell {
+    margin: 5px 0;
+    position: relative;
 
-@media (min-width: 768px) {}
+    &__img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    &__name {
+        font: 22px $fontMonB;
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media (min-width: 768px) {
+    .cell {
+        max-width: 32.3%;
+        margin: 20px 0 0;
+        float: left;
+    }
+}
 @media (min-width: 977px) {}
