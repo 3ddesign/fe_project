@@ -1,10 +1,9 @@
 
-
 var button = document.getElementById("search");
 var container = document.getElementById("photogrid");
 
-//random value
-var arr = ["travel", "wine", "hiking"];
+//random value (may add other words in array)
+var arr = ["wine"];
 var value = (arr[Math.round(Math.random() * (arr.length - 1))]);
 
 //request to pixabay
@@ -35,18 +34,7 @@ button.onclick = function(e) {
     getUrls(value);
 };
 
-//Masonry init
-// var elem = document.querySelector('.grid');
-// var msnry = new Masonry(elem, {
-//     itemSelector: '.grid-item',
-//     columnWidth: 200,
-// });
-//
-// var msnry = new Masonry('.grid', {
-//
-// });
-
-
+//Masonry init with imagesLoaded ()
 var container = document.querySelector('.grid');
 var msnry;
 
