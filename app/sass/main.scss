@@ -400,6 +400,12 @@ a {
         top: 50%;
         transform: translate(-50%, -50%);
     }
+
+
+
+
+
+
 }
 @media (min-width: 768px) {
     header {
@@ -456,16 +462,36 @@ a {
         background-color: #ff4e50;
     }
 
+    .stepssection__carousels {
+        margin: 0 auto;
+        height: 444px;
+        width: 758px;
+    }
 
+    .g1 {
+        position: absolute;
+        width: 236px;
+        height: 401px;
+        overflow: hidden;
+        text-align: left;
+    }
 
+    .g2 {
+        margin-left: 255px;
+        position: absolute;
+        width: 236px;
+        height: 401px;
+        overflow: hidden;
+        text-align: left;
+    }
 
-
-
-
-
-
-    .arrow {
-        display: block;
+    .g3 {
+        margin-left: 510px;
+        position: absolute;
+        height: 401px;
+        width: 236px;
+        overflow: hidden;
+        text-align: left;
     }
 
     .step {
@@ -486,43 +512,49 @@ a {
         }
     }
 
+    .steps__text {
+      width: 200px;
+    }
 
-    .carousel {
-        width: 236px;
-      }
-      .gallery {
-          width: 236px;}
+    .steps__btn {
+        margin-top: 212px;
+        margin-left: 24px;
 
-
-          .prev {
-            margin-top: 5px;
-                margin-left: 20px;
-          }
-
-          .next {
-            margin-top: 5px;
-                margin-left: 182px;
-          }
-
-          .gallery ul {
-              height: 401px;
-}
-.steps__btn {
-    margin-top: 210px}
-
-.steps__text { width: 220px;}
-
-.step {
-    width: 236px;
-    height: 401px;
-    text-align: left;
-}
+        &--n2 {
+            margin-top: 242px;
+        }
+    }
 
 
 
 
 
 
+    #liniya {
+      width: 236px;
+      height: 401px;
+            background:#669900;
+            float:left;
+            margin-left:13px;
+            text-align:center;
+            }
+
+
+
+    .grid {
+        max-width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .grid-item {
+        max-width: 30.3%;
+        margin: 10px;
+
+        img {
+            height: 100%;
+        }
+    }
 }
 @media (min-width: 977px) {
     .grid {
