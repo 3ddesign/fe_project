@@ -3,20 +3,7 @@
 @import 'carousel';
 $fontMonB: "Montserrat Bold", Arial, sans-serif;
 $fontMonR: "Montserrat Regular", Arial, sans-serif;
-$fontRblack: "Robotoblack", Arial, sans-serif;
-$fontRIt: "Robotoblack Italic", Arial, sans-serif;
-$fontRB: "Robotobold", Arial, sans-serif;
-$fontRBIt: "Robotobold Italic", Arial, sans-serif;
-$fontRI: "Roboto Italic", Arial, sans-serif;
 $fontRL: "Roboto Light", Arial, sans-serif;
-$fontRLI: "Robotolight Italic", Arial, sans-serif;
-$fontRM: "Roboto Medium", Arial, sans-serif;
-$fontRMI: "Robotomedium Italic", Arial, sans-serif;
-$fontRR: "Roboto Regular", Arial, sans-serif;
-$fontRT: "Roboto Thin", Arial, sans-serif;
-$fontRTI: "Robotothin Italic", Arial, sans-serif; // '(max-width: 767px)';
-// '(min-width: 768px) and (max-width: 1439px)';
-// '(min-width: 1440px)';
 
 header {
     min-height: 443px;
@@ -566,90 +553,79 @@ a {
     }
 
     .pmt2 {
-      margin-top: 18px;
-      margin-left: 36px;
+        margin-top: 18px;
+        margin-left: 36px;
     }
 
     .pmt3 {
-      margin-top: 5px;
-      margin-left: 13px;
+        margin-top: 5px;
+        margin-left: 13px;
     }
 
     .pmt4 {
-      margin-top: 5px;
-      margin-left: 36px;
+        margin-top: 5px;
+        margin-left: 36px;
     }
 
     .partner {
         float: left;
     }
 
-
-
-
     .meetsection__btn {
-
         width: 165px;
-
-
     }
-
-
 
     .ideassection {
         text-align: center;
         display: block;
-margin-top: 95px;
-
+        margin-top: 95px;
     }
 
     .form__search__input {
-      width: 220px;
+        width: 220px;
     }
 
-.form__search__btn {
+    .form__search__btn {
         width: 150px;
-}
-
-.footer {
-  padding: 38px 40px 92px 40px;
-		margin-top: 100px;
-		text-align: left;
-		position: relative;
-    height: 100px;
-  &__logo a {
-
-      	float: left;
     }
-  &__boldtext1 {
-    margin: 0 0 0 94px;
-float: left;
-  }
-  &__boldtext2 {
-    margin: 0 0 0 94px;
-float: left;
-  }
-  &__menu {
-    line-height: 20px;
-    width: 80px;
-		position: absolute;
-    margin-top: 30px;
-margin-left: 240px;
 
+    .footer {
+        padding: 38px 40px 92px;
+        margin-top: 100px;
+        text-align: left;
+        position: relative;
+        height: 100px;
 
+        &__logo a {
+            float: left;
+        }
 
-  }
+        &__boldtext1 {
+            margin: 0 0 0 94px;
+            float: left;
+        }
 
+        &__boldtext2 {
+            margin: 0 0 0 94px;
+            float: left;
+        }
 
-}
+        &__menu {
+            line-height: 20px;
+            width: 80px;
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 240px;
+        }
+    }
 
-.footer__designedby {
-  float: right;
-}
-.footer__deslogo {
-margin-left: -30px;
-}
+    .footer__designedby {
+        float: right;
+    }
 
+    .footer__deslogo {
+        margin-left: -30px;
+    }
 
     .grid {
         max-width: 98%;
@@ -665,15 +641,97 @@ margin-left: -30px;
             height: 100%;
         }
     }
-
-
-
-
-
-
-
 }
-@media (min-width: 977px) {
+@media (min-width: 1440px) {
+
+  header {
+
+      background: url("../img/bgD.jpg") center no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding: 30px 10px 67px 20px;
+  }
+
+  .header__nameline {
+      margin-left: 16.4%;
+  }
+
+  .authorizationBlock {
+      margin-right: 16.2%;
+  }
+
+.stepssection h2{
+  margin-left: 7px;
+}
+
+.step {
+    width: 300px;
+    height: 400px;
+    text-align: left;
+
+    &--n1 {
+        background: url("../img/dbs1.jpg") no-repeat;
+    }
+
+    &--n2 {
+        background: url("../img/dbs2.jpg") no-repeat;
+    }
+
+    &--n3 {
+        background: url("../img/dbs3.jpg") no-repeat;
+    }
+}
+
+.stepssection__carousels {
+    margin: 0 auto;
+    padding: 0;
+    height: 444px;
+    width: 960px;
+}
+
+#liniya {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 18px;
+    text-align: center;
+}
+
+.meetsection__partner {
+    width:980px;
+    height: 276px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pmt1 {
+    margin-top: 18px;
+    margin-left: 19px;
+}
+
+.pmt2 {
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.pmt3 {
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.pmt4 {
+    margin-top: 17px;
+    margin-left: 19px;
+}
+
+.partner {
+    float: left;
+}
+
+.footer__wrap {
+  width: 960px;
+  margin: 0 auto;
+}
     .grid {
         max-width: 960px;
     }

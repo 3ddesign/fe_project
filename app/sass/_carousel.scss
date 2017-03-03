@@ -318,3 +318,43 @@
         overflow: hidden;
     }
 }
+
+
+
+@media (min-width: 1440px) {
+
+
+
+  .sliderA > input:checked + div + label,
+  .sliderA > input:checked + div + label + label {
+      top: 48%;
+  }
+  .sliderB > input:checked + div + label,
+  .sliderB > input:checked + div + label + label {
+      top: 48%;
+  }
+  .sliderC > input:checked + div + label,
+  .sliderC > input:checked + div + label + label {
+      top: 48%;
+  }
+
+
+    .sliderA {
+        width: 300px;
+        height: 400;
+        position: relative;
+        overflow: hidden;
+    }
+    .sliderB {
+      width: 300px;
+      height: 400;
+        position: relative;
+        overflow: hidden;
+    }
+    .sliderC {
+      width: 300px;
+      height: 400;
+        position: relative;
+        overflow: hidden;
+    }
+}
