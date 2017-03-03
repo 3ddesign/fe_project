@@ -456,36 +456,16 @@ a {
         background-color: #ff4e50;
     }
 
-    .stepssection__carousels {
-        margin: 0 auto;
-        height: 720px;
-        width: 750px;
-    }
 
-    .g1 {
-        position: absolute;
-        width: 236px;
-        height: 401px;
-        overflow: hidden;
-        text-align: left;
-    }
 
-    .g2 {
-        margin-left: 255px;
-        position: absolute;
-        width: 236px;
-        height: 401px;
-        overflow: hidden;
-        text-align: left;
-    }
 
-    .g3 {
-        margin-left: 510px;
-        position: absolute;
-        height: 401px;
-        width: 236px;
-        overflow: hidden;
-        text-align: left;
+
+
+
+
+
+    .arrow {
+        display: block;
     }
 
     .step {
@@ -506,37 +486,43 @@ a {
         }
     }
 
-    .steps__text {
-      width: 200px;
-    }
 
-    .steps__btn {
-        margin-top: 212px;
-        margin-left: 24px;
+    .carousel {
+        width: 236px;
+      }
+      .gallery {
+          width: 236px;}
 
-        &--n2 {
-            margin-top: 242px;
-        }
-    }
 
-    .arrow {
-        display: block;
-    }
+          .prev {
+            margin-top: 5px;
+                margin-left: 20px;
+          }
 
-    .grid {
-        max-width: 95%;
-        margin: 0 auto;
-        display: block;
-    }
+          .next {
+            margin-top: 5px;
+                margin-left: 182px;
+          }
 
-    .grid-item {
-        max-width: 30.3%;
-        margin: 10px;
+          .gallery ul {
+              height: 401px;
+}
+.steps__btn {
+    margin-top: 210px}
 
-        img {
-            height: 100%;
-        }
-    }
+.steps__text { width: 220px;}
+
+.step {
+    width: 236px;
+    height: 401px;
+    text-align: left;
+}
+
+
+
+
+
+
 }
 @media (min-width: 977px) {
     .grid {

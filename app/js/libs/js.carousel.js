@@ -6,7 +6,7 @@ for (var i = 0; i < lis.length; i++) {
 
     lis[i].appendChild(span);
 }
-var width = 301;
+var width = 240;
 var count = 1;
 var carousel = document.getElementById('carousel');
 var list = carousel.querySelector('ul');
