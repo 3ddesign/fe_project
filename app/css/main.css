@@ -53,8 +53,9 @@ a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:
 .steps__btn--n2{margin-top:100px;margin-left:21px}.steps__btn:hover{background:#d54749}
 .steps__header{margin-left:20px;margin-top:14px;font:24px "Montserrat Bold",Arial,sans-serif;color:#fff;font-weight:bold}
 .steps__text{margin-top:10px;margin-left:20px;font:14px "Roboto Light",Arial,sans-serif;color:#cbcbcb;width:260px;line-height:18px}
-.steps__text--n2{line-height:17px;letter-spacing:.005em}.arrow{display:none}.stepssection__carousels{margin:0 auto;height:720px;width:303px}
-.meetsection{text-align:center}.meetsection h3{margin-left:10px;margin-top:54px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
+.steps__text--n2{line-height:17px;letter-spacing:.005em}.arrow{display:none}.stepssection__carousels{margin:0 auto;padding:8px;height:720px;width:303px}
+.sliderA{margin-top:5px}.sliderB{margin-top:10px}.sliderC{margin-top:12px}.meetsection{text-align:center}
+.meetsection h3{margin-left:10px;margin-top:54px;font:22px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
 .partner{width:220px;margin:0 auto;text-align:center}.partner__photo{margin-top:13px;margin-left:16px}
 .partner__icon{position:absolute;margin-top:98px;margin-left:-37px}.partner__name{margin-top:14px;margin-left:15px;font:14px "Montserrat Bold",Arial,sans-serif;color:#333;font-weight:bold}
 .partner__describe{margin-left:14px;margin-top:11px;font:14px "Roboto Light",Arial,sans-serif;color:#656565}
@@ -79,12 +80,12 @@ a{text-decoration:none}.authorizationBlock_logIn{width:150px;margin:0 auto;font:
 .authorizationBlock{display:block;width:150px;float:right;margin-top:18px;margin-right:3.3%}
 .header__tagline{margin:0 auto;width:500px;margin-top:185px;font-size:52px}.header__tagline2{width:420px;margin-top:21px;font-size:24px}
 .header_link{display:block;margin:32px auto;width:182px;padding:12px 20px;border-radius:35px;background-color:#ff4e50}
-.stepssection__carousels{margin:0 auto;height:444px;width:758px}.g1{position:absolute;width:236px;height:401px;overflow:hidden;text-align:left}
+.stepssection__carousels{margin:0 auto;padding:0;height:444px;width:758px}.g1{position:absolute;width:236px;height:401px;overflow:hidden;text-align:left}
 .g2{margin-left:255px;position:absolute;width:236px;height:401px;overflow:hidden;text-align:left}
 .g3{margin-left:510px;position:absolute;height:401px;width:236px;overflow:hidden;text-align:left}
 .step{width:236px;height:401px;text-align:left}.step--n1{background:url("../img/bs1.jpg") no-repeat}
 .step--n2{background:url("../img/bs2.jpg") no-repeat}.step--n3{background:url("../img/bs3.jpg") no-repeat}
 .steps__text{width:200px}.steps__btn{margin-top:212px;margin-left:24px}.steps__btn--n2{margin-top:242px}
-#liniya{width:236px;height:401px;background:#690;float:left;margin-left:13px;text-align:center}
+.sliderA{margin-top:0}.sliderB{margin-top:0}.sliderC{margin-top:0}#liniya{width:236px;height:401px;float:left;margin-left:13px;text-align:center}
 .grid{max-width:95%;margin:0 auto;display:block}.grid-item{max-width:30.3%;margin:10px}
 .grid-item img{height:100%}}@media(min-width:977px){.grid{max-width:960px}}

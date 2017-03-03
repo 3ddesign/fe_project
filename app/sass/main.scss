@@ -180,8 +180,21 @@ a {
 
 .stepssection__carousels {
     margin: 0 auto;
+    padding: 8px;
     height: 720px;
     width: 303px;
+}
+
+.sliderA {
+    margin-top: 5px;
+}
+
+.sliderB {
+    margin-top: 10px;
+}
+
+.sliderC {
+    margin-top: 12px;
 }
 
 .meetsection {
@@ -400,12 +413,6 @@ a {
         top: 50%;
         transform: translate(-50%, -50%);
     }
-
-
-
-
-
-
 }
 @media (min-width: 768px) {
     header {
@@ -464,6 +471,7 @@ a {
 
     .stepssection__carousels {
         margin: 0 auto;
+        padding: 0;
         height: 444px;
         width: 758px;
     }
@@ -513,7 +521,7 @@ a {
     }
 
     .steps__text {
-      width: 200px;
+        width: 200px;
     }
 
     .steps__btn {
@@ -525,19 +533,36 @@ a {
         }
     }
 
+    .sliderA {
+        margin-top: 0;
+    }
 
+    .sliderB {
+        margin-top: 0;
+    }
 
-
-
+    .sliderC {
+        margin-top: 0;
+    }
 
     #liniya {
-      width: 236px;
-      height: 401px;
-            background:#669900;
-            float:left;
-            margin-left:13px;
-            text-align:center;
-            }
+        width: 236px;
+        height: 401px;
+        float: left;
+        margin-left: 13px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
