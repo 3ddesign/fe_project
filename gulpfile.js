@@ -69,7 +69,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'js'], function() {
     var buildJs = gulp.src('app/js/*.js')
         .pipe(gulp.dest('dist/js'));
 
-    var buildLibs = gulp.src('app/js/libs/masonry.pkgd.min.js')
+    var buildLibs = gulp.src('app/js/libs/*.js')
         .pipe(gulp.dest('dist/js/libs'));
 
     var buildCss = gulp.src('app/css/*.css')
