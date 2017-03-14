@@ -1,10 +1,10 @@
 
-var button = document.getElementById("search");
-var container = document.getElementById("photogrid");
+const button = document.getElementById("search");
+const container = document.getElementById("photogrid");
 
 //random value (may add other words in array)
-var arr = ["wine", "red"];
-var value = (arr[Math.round(Math.random() * (arr.length - 1))]);
+const arr = ["wine", "red"];
+let value = (arr[Math.round(Math.random() * (arr.length - 1))]);
 
 //request to pixabay
 let getUrls = function(val) {
@@ -14,7 +14,7 @@ let getUrls = function(val) {
     xhr.open('GET', URL, true);
     xhr.onload = function() {
         let pics = JSON.parse(this.responseText);
-        for (var i = 0; i < 7; i++) {
+        for (let i = 0; i < 7; i++) {
             a = 'cell' + i;
             document.getElementById(a).innerHTML = '<img src="' + pics.hits[i].webformatURL + '" alt="image"><figcaption>' + pics.hits[i].tags.split(',')[0] + '</figcaption>';
         }
@@ -35,10 +35,10 @@ button.onclick = function(e) {
 };
 
 //Masonry init with imagesLoaded ()
-var container = document.querySelector('.grid');
-var msnry;
+const containerGr = document.querySelector('.grid');
+let msnry;
 
-imagesLoaded( container, function() {
+imagesLoaded( containerGr, function() {
 
-  msnry = new Masonry( container );
+  msnry = new Masonry( containerGr );
 });
