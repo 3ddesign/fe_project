@@ -15,7 +15,7 @@ getUrls = (val) => {
         let pics = JSON.parse(this.responseText);
         for (let i = 0; i < 7; i++) {
             a = 'cell' + i;
-            document.getElementById(a).innerHTML = `<img src="${pics.hits[i].webformatURL}" alt="image"><figcaption> ${pics.hits[i].tags.split(',')[0]}</figcaption>`;
+            document.getElementById(a).innerHTML = `<figure><img src="${pics.hits[i].webformatURL}" alt="image"><figcaption> ${pics.hits[i].tags.split(',')[0]}</figcaption></figure>`;
         }
     };
     xhr.onerror = () => {
@@ -37,9 +37,10 @@ button.onclick = (e) => {
 
 //Masonry init with imagesLoaded ()
 const containerGr = document.querySelector('.grid');
-let msnry;
 
 imagesLoaded(containerGr, () => {
 
-    msnry = new Masonry(containerGr);
+  let msnry = new Masonry(containerGr, {
+    gutter: 10
+  });
 });
