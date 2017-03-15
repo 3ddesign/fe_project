@@ -40,7 +40,8 @@ const containerGr = document.querySelector('.grid');
 
 imagesLoaded(containerGr, () => {
 
-  let msnry = new Masonry(containerGr, {
-    gutter: 10
-  });
+    let msnry = new Masonry(containerGr, {
+        columnWidth: "img",
+        gutter: 10
+    });
 });
