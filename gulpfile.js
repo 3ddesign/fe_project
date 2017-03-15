@@ -9,6 +9,16 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     uglifycss = require('gulp-uglifycss');
 
+    gulp.task('images', function () {
+        return gulp.src('src/img/*')
+            .pipe(imagemin({
+                progressive: true,
+                svgoPlugins: [{removeViewBox: false}],
+                use: [pngquant()]
+            }))
+            .pipe(gulp.dest('dist/img'));
+    });
+
 gulp.task('js', function() {
     return gulp.src('app/js/common_*.js')
         .pipe(uglify())
@@ -61,7 +71,7 @@ gulp.task('default', ['browser-sync', 'js', 'sass'], function() {
     gulp.watch('app/js/*.js', ['js']);
 });
 
-gulp.task('build', ['clean', 'img', 'sass', 'js'], function() {
+gulp.task('build', ['clean', 'img', 'sass', 'js', 'images'], function() {
 
     var buildFonts = gulp.src('app/fonts/**/*')
         .pipe(gulp.dest('dist/fonts'));
