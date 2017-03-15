@@ -5,10 +5,14 @@ $fontMonB: "Montserrat Bold", Arial, sans-serif;
 $fontMonR: "Montserrat Regular", Arial, sans-serif;
 $fontRL: "Roboto Light", Arial, sans-serif;
 
+html {
+    overflow-x: hidden;
+}
+
 header {
     min-height: 443px;
     min-width: 280px;
-    background: url("../img/bg.jpg") center no-repeat;
+    background: url(../img/bg.jpg) center no-repeat;
     background-size: cover;
     text-align: center;
     padding: 30px 10px 67px 20px;
@@ -18,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-.authorizationBlock_logIn {
+.authorizationblock_login {
     width: 150px;
     margin: 0 auto;
     font: 13px $fontMonB;
@@ -30,7 +34,7 @@ a {
     }
 }
 
-.authorizationBlock_SignUp {
+.authorizationblock_signup {
     width: 150px;
     margin-left: 16px;
     font: 13px $fontMonB;
@@ -105,15 +109,15 @@ a {
     text-align: left;
 
     &--n1 {
-        background: url("../img/s1.jpg") no-repeat;
+        background: url(../img/s1.jpg) no-repeat;
     }
 
     &--n2 {
-        background: url("../img/s2.jpg") no-repeat;
+        background: url(../img/s2.jpg) no-repeat;
     }
 
     &--n3 {
-        background: url("../img/s3.jpg") no-repeat;
+        background: url(../img/s3.jpg) no-repeat;
     }
 }
 
@@ -172,15 +176,15 @@ a {
     width: 303px;
 }
 
-.sliderA {
+.slidera {
     margin-top: 5px;
 }
 
-.sliderB {
+.sliderb {
     margin-top: 10px;
 }
 
-.sliderC {
+.sliderc {
     margin-top: 12px;
 }
 
@@ -405,7 +409,7 @@ a {
     header {
         min-height: 603px;
         min-width: 280px;
-        background: url("../img/bgT.jpg") center no-repeat;
+        background: url(../img/bgT.jpg) center no-repeat;
         background-size: cover;
         text-align: center;
         padding: 30px 10px 67px 20px;
@@ -426,7 +430,7 @@ a {
         float: left;
     }
 
-    .authorizationBlock {
+    .authorizationblock {
         display: block;
         width: 150px;
         float: right;
@@ -495,15 +499,15 @@ a {
         text-align: left;
 
         &--n1 {
-            background: url("../img/bs1.jpg") no-repeat;
+            background: url(../img/bs1.jpg) no-repeat;
         }
 
         &--n2 {
-            background: url("../img/bs2.jpg") no-repeat;
+            background: url(../img/bs2.jpg) no-repeat;
         }
 
         &--n3 {
-            background: url("../img/bs3.jpg") no-repeat;
+            background: url(../img/bs3.jpg) no-repeat;
         }
     }
 
@@ -520,19 +524,19 @@ a {
         }
     }
 
-    .sliderA {
+    .slidera {
         margin-top: 0;
     }
 
-    .sliderB {
+    .sliderb {
         margin-top: 0;
     }
 
-    .sliderC {
+    .sliderc {
         margin-top: 0;
     }
 
-    #liniya {
+    #liniya1, #liniya2, #liniya3 {
         width: 236px;
         height: 401px;
         float: left;
@@ -643,95 +647,94 @@ a {
     }
 }
 @media (min-width: 1440px) {
-
-  header {
-
-      background: url("../img/bgD.jpg") center no-repeat;
-      background-size: cover;
-      text-align: center;
-      padding: 30px 10px 67px 20px;
-  }
-
-  .header__nameline {
-      margin-left: 16.4%;
-  }
-
-  .authorizationBlock {
-      margin-right: 16.2%;
-  }
-
-.stepssection h2{
-  margin-left: 7px;
-}
-
-.step {
-    width: 300px;
-    height: 400px;
-    text-align: left;
-
-    &--n1 {
-        background: url("../img/dbs1.jpg") no-repeat;
+    header {
+        background: url(../img/bgD.jpg) center no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 30px 10px 67px 20px;
     }
 
-    &--n2 {
-        background: url("../img/dbs2.jpg") no-repeat;
+    .header__nameline {
+        margin-left: 16.4%;
     }
 
-    &--n3 {
-        background: url("../img/dbs3.jpg") no-repeat;
+    .authorizationblock {
+        margin-right: 16.2%;
     }
-}
 
-.stepssection__carousels {
-    margin: 0 auto;
-    padding: 0;
-    height: 444px;
-    width: 960px;
-}
+    .stepssection h2 {
+        margin-left: 7px;
+    }
 
-#liniya {
-    width: 300px;
-    height: 400px;
-    float: left;
-    margin-left: 18px;
-    text-align: center;
-}
+    .step {
+        width: 300px;
+        height: 400px;
+        text-align: left;
 
-.meetsection__partner {
-    width:980px;
-    height: 276px;
-    margin: 0 auto;
-    text-align: center;
-}
+        &--n1 {
+            background: url(../img/dbs1.jpg) no-repeat;
+        }
 
-.pmt1 {
-    margin-top: 18px;
-    margin-left: 19px;
-}
+        &--n2 {
+            background: url(../img/dbs2.jpg) no-repeat;
+        }
 
-.pmt2 {
-    margin-top: 17px;
-    margin-left: 20px;
-}
+        &--n3 {
+            background: url(../img/dbs3.jpg) no-repeat;
+        }
+    }
 
-.pmt3 {
-    margin-top: 16px;
-    margin-left: 20px;
-}
+    .stepssection__carousels {
+        margin: 0 auto;
+        padding: 0;
+        height: 444px;
+        width: 960px;
+    }
 
-.pmt4 {
-    margin-top: 17px;
-    margin-left: 19px;
-}
+    #liniya1, #liniya2, #liniya3 {
+        width: 300px;
+        height: 400px;
+        float: left;
+        margin-left: 18px;
+        text-align: center;
+    }
 
-.partner {
-    float: left;
-}
+    .meetsection__partner {
+        width: 980px;
+        height: 276px;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-.footer__wrap {
-  width: 960px;
-  margin: 0 auto;
-}
+    .pmt1 {
+        margin-top: 18px;
+        margin-left: 19px;
+    }
+
+    .pmt2 {
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+
+    .pmt3 {
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    .pmt4 {
+        margin-top: 17px;
+        margin-left: 19px;
+    }
+
+    .partner {
+        float: left;
+    }
+
+    .footer__wrap {
+        width: 960px;
+        margin: 0 auto;
+    }
+
     .grid {
         max-width: 960px;
     }

@@ -1,20 +1,20 @@
-.sliderA {
+.slidera {
     width: 301px;
     height: 240px;
     position: relative;
     overflow: hidden;
 }
 
-.sliderA > input {
+.slidera > input {
     display: none;
 }
 
-.sliderA > label {
+.slidera > label {
     display: none;
 }
 
-.sliderA > input:checked + div + label,
-.sliderA > input:checked + div + label + label {
+.slidera > input:checked + div + label,
+.slidera > input:checked + div + label + label {
     display: block;
     width: 80px;
     height: 80px;
@@ -34,8 +34,8 @@
     display: none;
 }
 
-.sliderA > input:checked + div + label + label:after,
-.sliderA > input:checked + div + label:after {
+.slidera > input:checked + div + label + label:after,
+.slidera > input:checked + div + label:after {
     font-size: 30px;
     color: #fff;
     display: block;
@@ -45,25 +45,25 @@
     line-height: 80px;
 }
 
-.sliderA > input:checked + div + label {
+.slidera > input:checked + div + label {
     left: -40px;
 }
 
-.sliderA > input:checked + div + label:after {
+.slidera > input:checked + div + label:after {
     content: '';
     left: 55%;
 }
 
-.sliderA > input:checked + div + label + label {
+.slidera > input:checked + div + label + label {
     right: -40px;
 }
 
-.sliderA > input:checked + div + label + label:after {
+.slidera > input:checked + div + label + label:after {
     content: '';
     right: 55%;
 }
 
-.sliderA > div {
+.slidera > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,13 +72,13 @@
     z-index: 0;
 }
 
-.sliderA > div {
+.slidera > div {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-.sliderA > input:checked + div {
+.slidera > input:checked + div {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
@@ -96,23 +96,23 @@
 
 
 
-.sliderB {
+.sliderb {
     width: 301px;
     height: 240px;
     position: relative;
     overflow: hidden;
 }
 
-.sliderB > input {
+.sliderb > input {
     display: none;
 }
 
-.sliderB > label {
+.sliderb > label {
     display: none;
 }
 
-.sliderB > input:checked + div + label,
-.sliderB > input:checked + div + label + label {
+.sliderb > input:checked + div + label,
+.sliderb > input:checked + div + label + label {
     display: block;
     width: 80px;
     height: 80px;
@@ -132,8 +132,8 @@
     display: none;
 }
 
-.sliderB > input:checked + div + label + label:after,
-.sliderB > input:checked + div + label:after {
+.sliderb > input:checked + div + label + label:after,
+.sliderb > input:checked + div + label:after {
     font-size: 30px;
     color: #fff;
     display: block;
@@ -143,25 +143,25 @@
     line-height: 80px;
 }
 
-.sliderB > input:checked + div + label {
+.sliderb > input:checked + div + label {
     left: -40px;
 }
 
-.sliderB > input:checked + div + label:after {
+.sliderb > input:checked + div + label:after {
     content: '';
     left: 55%;
 }
 
-.sliderB > input:checked + div + label + label {
+.sliderb > input:checked + div + label + label {
     right: -40px;
 }
 
-.sliderB > input:checked + div + label + label:after {
+.sliderb > input:checked + div + label + label:after {
     content: '';
     right: 55%;
 }
 
-.sliderB > div {
+.sliderb > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -170,13 +170,13 @@
     z-index: 0;
 }
 
-.sliderB > div {
+.sliderb > div {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-.sliderB > input:checked + div {
+.sliderb > input:checked + div {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
@@ -190,23 +190,23 @@
 
 
 
-.sliderC {
+.sliderc {
     width: 301px;
     height: 240px;
     position: relative;
     overflow: hidden;
 }
 
-.sliderC > input {
+.sliderc > input {
     display: none;
 }
 
-.sliderC > label {
+.sliderc > label {
     display: none;
 }
 
-.sliderC > input:checked + div + label,
-.sliderC > input:checked + div + label + label {
+.sliderc > input:checked + div + label,
+.sliderc > input:checked + div + label + label {
     display: block;
     width: 80px;
     height: 80px;
@@ -226,8 +226,8 @@
     display: none;
 }
 
-.sliderC > input:checked + div + label + label:after,
-.sliderC > input:checked + div + label:after {
+.sliderc > input:checked + div + label + label:after,
+.sliderc > input:checked + div + label:after {
     font-size: 30px;
     color: #fff;
     display: block;
@@ -237,25 +237,25 @@
     line-height: 80px;
 }
 
-.sliderC > input:checked + div + label {
+.sliderc > input:checked + div + label {
     left: -40px;
 }
 
-.sliderC > input:checked + div + label:after {
+.sliderc > input:checked + div + label:after {
     content: '';
     left: 55%;
 }
 
-.sliderC > input:checked + div + label + label {
+.sliderc > input:checked + div + label + label {
     right: -40px;
 }
 
-.sliderC > input:checked + div + label + label:after {
+.sliderc > input:checked + div + label + label:after {
     content: '';
     right: 55%;
 }
 
-.sliderC > div {
+.sliderc > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -264,13 +264,13 @@
     z-index: 0;
 }
 
-.sliderC > div {
+.sliderc > div {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-.sliderC > input:checked + div {
+.sliderc > input:checked + div {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
@@ -299,19 +299,19 @@
         padding-right: 65px;
     }
 
-    .sliderA {
+    .slidera {
         width: 236px;
         height: 401px;
         position: relative;
         overflow: hidden;
     }
-    .sliderB {
+    .sliderb {
         width: 236px;
         height: 401px;
         position: relative;
         overflow: hidden;
     }
-    .sliderC {
+    .sliderc {
         width: 236px;
         height: 401px;
         position: relative;
@@ -325,33 +325,33 @@
 
 
 
-  .sliderA > input:checked + div + label,
-  .sliderA > input:checked + div + label + label {
+  .slidera > input:checked + div + label,
+  .slidera > input:checked + div + label + label {
       top: 48%;
   }
-  .sliderB > input:checked + div + label,
-  .sliderB > input:checked + div + label + label {
+  .sliderb > input:checked + div + label,
+  .sliderb > input:checked + div + label + label {
       top: 48%;
   }
-  .sliderC > input:checked + div + label,
-  .sliderC > input:checked + div + label + label {
+  .sliderc > input:checked + div + label,
+  .sliderc > input:checked + div + label + label {
       top: 48%;
   }
 
 
-    .sliderA {
+    .slidera {
         width: 300px;
         height: 400;
         position: relative;
         overflow: hidden;
     }
-    .sliderB {
+    .sliderb {
       width: 300px;
       height: 400;
         position: relative;
         overflow: hidden;
     }
-    .sliderC {
+    .sliderc {
       width: 300px;
       height: 400;
         position: relative;
