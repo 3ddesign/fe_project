@@ -2,7 +2,6 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync'),
     concat = require('gulp-concat'),
-
     del = require('del'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
@@ -23,7 +22,6 @@ gulp.task('images', function() {
 
 gulp.task('js', function() {
     return gulp.src('app/js/common_*.js')
-
         .pipe(concat('common.js'))
         .pipe(gulp.dest('app/js'))
         .pipe(browserSync.reload({
