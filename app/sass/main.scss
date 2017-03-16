@@ -12,7 +12,7 @@ html {
 header {
     min-height: 443px;
     min-width: 280px;
-    background: url(../img/bg.jpg) center no-repeat;
+    background: url("../img/bg.jpg") center no-repeat;
     background-size: cover;
     text-align: center;
     padding: 30px 10px 67px 20px;
@@ -109,15 +109,15 @@ a {
     text-align: left;
 
     &--n1 {
-        background: url(../img/s1.jpg) no-repeat;
+        background: url("../img/s1.jpg") no-repeat;
     }
 
     &--n2 {
-        background: url(../img/s2.jpg) no-repeat;
+        background: url("../img/s2.jpg") no-repeat;
     }
 
     &--n3 {
-        background: url(../img/s3.jpg) no-repeat;
+        background: url("../img/s3.jpg") no-repeat;
     }
 }
 
@@ -382,6 +382,15 @@ a {
     }
 }
 
+.warning {
+    margin-top: -8px;
+    font-weight: 900;
+    left: 20%;
+    right: 20%;
+    font: 16px $fontRL;
+    color: red;
+}
+
 .grid-item {
     margin: 5px 0;
     position: relative;
@@ -409,7 +418,7 @@ a {
     header {
         min-height: 603px;
         min-width: 280px;
-        background: url(../img/bgT.jpg) center no-repeat;
+        background: url("../img/bgT.jpg") center no-repeat;
         background-size: cover;
         text-align: center;
         padding: 30px 10px 67px 20px;
@@ -499,15 +508,15 @@ a {
         text-align: left;
 
         &--n1 {
-            background: url(../img/bs1.jpg) no-repeat;
+            background: url("../img/bs1.jpg") no-repeat;
         }
 
         &--n2 {
-            background: url(../img/bs2.jpg) no-repeat;
+            background: url("../img/bs2.jpg") no-repeat;
         }
 
         &--n3 {
-            background: url(../img/bs3.jpg) no-repeat;
+            background: url("../img/bs3.jpg") no-repeat;
         }
     }
 
@@ -536,7 +545,9 @@ a {
         margin-top: 0;
     }
 
-    #liniya1, #liniya2, #liniya3 {
+    #liniya1,
+    #liniya2,
+    #liniya3 {
         width: 236px;
         height: 401px;
         float: left;
@@ -645,10 +656,18 @@ a {
             height: 100%;
         }
     }
+
+    .warning {
+        margin-top: -20px;
+    right: 30%;
+        left: 30%;
+
+    }
+
 }
 @media (min-width: 1440px) {
     header {
-        background: url(../img/bgD.jpg) center no-repeat;
+        background: url("../img/bgD.jpg") center no-repeat;
         background-size: cover;
         text-align: center;
         padding: 30px 10px 67px 20px;
@@ -672,15 +691,15 @@ a {
         text-align: left;
 
         &--n1 {
-            background: url(../img/dbs1.jpg) no-repeat;
+            background: url("../img/dbs1.jpg") no-repeat;
         }
 
         &--n2 {
-            background: url(../img/dbs2.jpg) no-repeat;
+            background: url("../img/dbs2.jpg") no-repeat;
         }
 
         &--n3 {
-            background: url(../img/dbs3.jpg) no-repeat;
+            background: url("../img/dbs3.jpg") no-repeat;
         }
     }
 
@@ -691,7 +710,9 @@ a {
         width: 960px;
     }
 
-    #liniya1, #liniya2, #liniya3 {
+    #liniya1,
+    #liniya2,
+    #liniya3 {
         width: 300px;
         height: 400px;
         float: left;
