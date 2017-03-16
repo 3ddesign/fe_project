@@ -9,15 +9,17 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     uglifycss = require('gulp-uglifycss');
 
-    gulp.task('images', function () {
-        return gulp.src('src/img/*')
-            .pipe(imagemin({
-                progressive: true,
-                svgoPlugins: [{removeViewBox: false}],
-                use: [pngquant()]
-            }))
-            .pipe(gulp.dest('dist/img'));
-    });
+gulp.task('images', function() {
+    return gulp.src('src/img/*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{
+                removeViewBox: false
+            }],
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('dist/img'));
+});
 
 gulp.task('js', function() {
     return gulp.src('app/js/common_*.js')
